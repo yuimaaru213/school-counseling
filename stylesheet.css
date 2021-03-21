@@ -1,0 +1,508 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif；
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+
+header{
+ height:60px;
+ background-color:#ffffff;
+ margin:0;
+ padding:10px 0px 10px 0px;
+ justify-content:space-between;
+ width:100%;
+}
+
+.left-side {
+  padding-top:10px;
+  padding-left:20px;
+}
+
+.menu-icon {
+  font-size:25px;
+  margin-top:21px;
+  color:#68be8d;
+  float:left;
+  position:absolute;
+  top:5px;
+  display:none;
+}
+
+.logo {
+  margin-left:30px;
+  float:left;
+  height:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-logo {
+  font-size:40px;
+}
+
+.logo-icon {
+  display:inline-block;
+  vertical-align:middle;
+  font-size:20px;
+}
+
+.logo-title {
+ vertical-align:middle;
+ display:inline-block;
+ margin-left:10px;
+ font-size:14px;
+}
+
+.top-menu {
+  font-size:12px;
+}
+
+.top-menus a {
+  text-decoration: none;
+  color:#000000;
+}
+
+.top-menus a:hover {
+  color:#68be8d;
+}
+
+.right-side{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.log-in {
+  float:right;
+}
+
+.log-in a {
+  height:46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  padding-left:10px;
+  padding-right:10px;
+  border:1px solid #68be8d;
+  border-radius:5px;
+  color:#68be8d;
+  text-decoration: none;
+  margin-right:30px;
+}
+
+
+.first-login {
+  float:right;
+  margin-right:20px;
+}
+
+.first-login a {
+   height:46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  padding-left:10px;
+  padding-right:10px;
+  border:1px solid #68be8d;
+  border-radius:5px;
+  color:#68be8d;
+  text-decoration: none;
+  margin-right:10px;
+}
+
+
+.log-in :hover {
+  color:#ffffff;
+  background-color:#badcad;
+}
+
+.first-login :hover {
+  color:#ffffff;
+  background-color:#badcad;
+}
+
+
+.container {
+  max-width: 1170px;
+  width:100%;
+  margin:auto;
+}
+
+.top-wrapper {
+  background-image: url("imageFile/花束.jpg");
+  background-size:cover;
+  background-position: center;
+  height:620px;
+  width:100%;
+  display: flex;
+  text-align:center;
+  color:#ffffff;
+}
+
+.top-message {
+  margin-bottom:50px;
+  letter-spacing: 0.2em;
+  text-shadow:1px 0 5px black;
+}
+
+h1 {
+  font-size:45px;
+}
+
+#title {
+  font-size:45px;
+}
+
+.top-message p {
+  margin-bottom:10px;
+  font-size:20px;
+}
+
+.result {
+  display:inline-block;
+  height:170px;
+  width:170px;
+  border-radius:50%;
+  background-color:rgba(104,190,141,0.7);
+  margin-left:100px;
+  text-align:center;
+  line-height: 170px;
+  font-size:20px;
+  border:1px solid #ffffff;
+  position:absolute;
+   top:-70px;
+   left:750px;
+}
+
+.top-wrapper > .container {
+  position:relative;
+}
+
+.chat-bot {
+  letter-spacing: 0.2em;
+  text-shadow:1px 0 5px black;
+}
+
+.chat-bot a {
+  text-decoration:none;
+  color:#ffffff;
+  display:inline-block;
+  padding:20px 100px;
+  background-color:rgba(118,47,7,0.7);
+  border-radius:10px;
+  box-shadow:0px 0px 10px rgba(255,191,127,1);
+}
+
+.chat-bot p {
+  margin-bottom:20px;
+}
+
+.chat-bot a:hover {
+ background-color:rgba(118,47,7,1);
+}
+
+.consulting {
+  height:630px;
+  background-color:#fff7ef;
+  padding-bottom:40px;
+}
+
+.select {
+  padding-top:30px;
+  padding-bottom:10px;
+  text-align:center;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size:35px;
+  text-align:center;
+  letter-spacing: 0.1em;
+}
+
+.how-to-consult {
+  padding-top:20px;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.consulting-box{
+  height:270px;
+  text-align:center;
+  width:350px;
+  background-color:#e5ffcc;
+}
+
+.consulting-title {
+  font-size:25px;
+  padding-top:30px;
+  margin-bottom:10px;
+  text-align:center;
+}
+
+.image1 {
+  width:350px;
+  height:230px;
+  text-align:center;
+  margin-bottom:-10px;
+}
+
+.price {
+  margin-bottom:10px;
+  font-size:16px;
+  text-align:center;
+}
+
+.price span {
+  font-size:12px;
+}
+
+.explain1 {
+  font-size:12px;
+  text-align:left;
+  width:330px;
+  margin:0 auto;
+}
+
+.consulting-box a {
+  display:block;
+  width:330px;
+  margin:0 auto;
+  margin-top:30px;
+  background-color:#ffffff;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#b8d200;
+  border:1px solid #b8d200;
+  border-radius:5px;
+  text-decoration: none;
+}
+
+.consulting-box a:hover {
+  background-color:#b8d200;
+  color:#ffffff;
+}
+
+.consulting1 {
+  margin-right:50px;
+}
+
+.consulting2 {
+  margin-right:50px;
+}
+
+
+
+.flow {
+  height:450px;
+  background-color:#ffffff;
+}
+
+.flow-title h2 {
+  color:#b9c42f;
+  padding-top:40px;
+}
+
+.steps {
+  padding-top:20px;
+}
+
+.step {
+  float:left;
+  text-align:center;
+  width:calc(100% / 3);
+}
+
+.to-step {
+ color:#6ab547;
+}
+
+.explain2 {
+  color:#939393;
+}
+
+.image2 {
+  width:60px;
+  height:60px;
+}
+
+.image3 {
+  width:250px;
+  height:200px;
+}
+
+.voices1 {
+  height:350px;
+  background-color:#e5ffe5;
+}
+
+.voices1 h2 {
+  color:#3cb37a;
+  padding-top:40px;
+}
+
+.parents-voices {
+  padding-top:50px;
+  text-align:left;
+}
+
+.parents-voice {
+  float:left;
+  width:25%;
+  margin-left:70px;
+}
+
+.voices2 {
+  height:350px;
+  background-color:#fff7ef;
+}
+
+.voices2 h2 {
+  color:#9cbb1c;
+  padding-top:40px;
+}
+
+.child-voices {
+  padding-top:50px;
+  text-align:left;
+}
+
+.child-voice {
+  float:left;
+  width:25%;
+  margin-left:70px;
+}
+
+.school .inspection {
+  width: 10vmax;
+  height:400px;
+  text-align:center;
+}
+
+.school  a{
+  text-decoration:none;
+}
+
+.school a:hover{
+  text-decoration:none;
+}
+
+.school-info {
+  height:200px;
+  border:4px solid #9fc24d;
+  margin-top:40px;
+}
+
+.school h2 {
+  padding-top:20px;
+  color:#f7b977;
+  text-decoration:none;
+}
+
+.info-title {
+  font-size: 4vw;
+  text-align:left;
+  margin-left:50px;
+  float:left;
+  text-decoration:none;
+  color:#000000;
+}
+
+.image4 {
+  width:14%;
+  height:40%;
+  text-align:right;
+  margin-bottom:30px;
+  float:right;
+}
+
+.about-info {
+  margin-top:30px;
+}
+
+.inspection-info {
+  height:200px;
+  border:4px solid #f7b977;
+  margin-top:40px;
+}
+
+.inspection h2 {
+  padding-top:20px;
+  color:#a9cf53;
+  text-decoration:none;
+}
+
+.inspection  a{
+  text-decoration:none;
+}
+
+.inspection a:hover{
+  text-decoration:none;
+}
+
+footer {
+  margin-top:30px;
+}
+
+footer a {
+  text-decoration:none;
+  color:#8b4513;
+}
+
+footer a:hover {
+  color:#d2691e;
+}
+
+.footer-info {
+  height:100px;
+  padding-top:30px;
+  background-color:#e2ffc6;
+}
+
+.footer-info p {
+  padding-top:30px;
+  color:#696969;
+  font-size:12.5px;
+}
+
+.sns-group {
+  display:flex;
+  justify-content:flex-end;
+  padding-top:20px;
+}
+
+.sns {
+  padding-bottom:20px;
+  padding-left:20px;
+}
+
+.copyright {
+  background-color:#c6ffc6;
+  text-align:center;
+}
+
+.copyright p {
+  text-align-last:center;
+  padding-top:30px;
+  padding-bottom:30px;
+  color:#8b4513;
+  border-top:1px solid rgba(140,99,70,0.2);
+  font-size:14px;
+}
